@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.modelo.LivroException;
 import com.modelo.model.Livro;
 import com.modelo.service.LivroServiceImpl;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
 
 public class ControllerServlet extends HttpServlet {
 

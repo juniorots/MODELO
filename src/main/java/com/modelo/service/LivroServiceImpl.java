@@ -3,13 +3,14 @@ package com.modelo.service;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.modelo.LivroException;
 import com.modelo.dao.Conectar;
 import com.modelo.model.Livro;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
+import com.mysql.cj.xdevapi.Statement;
 
 public class LivroServiceImpl implements LivroService {
 

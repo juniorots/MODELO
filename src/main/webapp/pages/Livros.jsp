@@ -16,9 +16,9 @@
             </tr>
             <c:forEach var="livro" items="${listaLivro}">
                 <tr>
-                    <td><c:out value="${book.id}" /></td>
-                    <td><c:out value="${book.nome}" /></td>
-                    <td><c:out value="${book.ano}" /></td>
+                    <td><c:out value="${livro.id}" /></td>
+                    <td><c:out value="${livro.nome}" /></td>
+                    <td><c:out value="${livro.ano}" /></td>
                     <!-- 
                     <td>
                         <a href="/edit?id=<c:out value='${book.id}' />">Edit</a>
